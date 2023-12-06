@@ -9,25 +9,23 @@ package paquete01;
  *
  * @author reroes
  */
-public class Ejemplo01 {
+public class Ejemplo014 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        String cadenaFinal = "";
+
+        int cadenaFinal = 0;
         for (int i = 1; i <= 10; i++) {
-//            System.out.printf("%d", i);
-            cadenaFinal = String.format("%s%d",cadenaFinal, i);
-//            se almacena los datos en el acumulador
+            cadenaFinal = cadenaFinal + i;
+//            suma de la cadena
         }
-        
+
         for (int i = 1; i < 11; i++) {
-            cadenaFinal = String.format("%s%d",cadenaFinal, i);
-//            System.out.printf("%d", i);
+            cadenaFinal = cadenaFinal + i;
         }
-        System.out.printf("%s",cadenaFinal);
+        System.out.printf("%s", cadenaFinal);
     }
 
 }
