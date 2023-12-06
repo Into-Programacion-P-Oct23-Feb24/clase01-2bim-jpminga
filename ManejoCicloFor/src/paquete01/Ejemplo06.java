@@ -20,9 +20,11 @@ public class Ejemplo06 {
         int operacion;
         String cadenaFinal = "";
         System.out.println("Ingrese la tabla a generar");
+//        se ingresa en pantalla un numero
         tabla = entrada.nextInt(); // 7
         
         for (int contador = 5; contador <= 12; contador++) {
+//            conmienza desde el 5 hasta el 12
             operacion = tabla * contador; // 7*5 = 35 // 7*6 = 42
             // System.out.printf("%d x %d = %d\n", tabla, contador, operacion);
             cadenaFinal = String.format("%s%d x %d = %d\n", 
